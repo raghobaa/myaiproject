@@ -4,7 +4,7 @@ from PIL import Image
 import docx2txt
 import pdfplumber
 
-genai.configure(api_key="AIzaSyCHGvCV_UsrQLx8EZrb58IQ9qqQEyRNcYI")  # Replace with your actual API key
+# Replace with your actual API key
 
 
 sys_prompt = """Assume you are an error debugger. First, identify the errors, then correct them. Do not answer any other questions."""
