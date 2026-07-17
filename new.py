@@ -5,7 +5,7 @@ import docx2txt
 import pdfplumber
 
 # Replace with your actual API key
-
+GEMINI_API= your_api_key;
 
 sys_prompt = """Assume you are an error debugger. First, identify the errors, then correct them. Do not answer any other questions."""
 gemini_model = genai.GenerativeModel(model_name="models/gemini-2.0-pro-exp-02-05", system_instruction=sys_prompt)
